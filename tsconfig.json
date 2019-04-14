@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": ["es2015"],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.d.ts"
+    ]
+  }
+}
